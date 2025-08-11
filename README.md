@@ -21,9 +21,6 @@ Production deployment can be optimized with Azure consumption-based pricing.
 Access the live frontend here:  
 [https://Maverick7t.github.io/QA_Tool](https://Maverick7t.github.io/QA_Tool)
 
-> **Note:** Backend services are currently offline due to cost limitations.  
-> The frontend demo will display a placeholder message indicating that the service is down.
-
 ---
 
 ## Project Structure
