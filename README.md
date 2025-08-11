@@ -18,7 +18,7 @@ Production deployment can be optimized with Azure consumption-based pricing.
 
 ## Live Demo
 
-Access the live frontend here:  
+Access the live demo here:  
 [https://Maverick7t.github.io/QA_Tool](https://Maverick7t.github.io/QA_Tool)
 
 ---
