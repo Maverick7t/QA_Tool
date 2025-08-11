@@ -12,7 +12,11 @@ from langchain.chains import RetrievalQA
 from langchain_azure_ai.embeddings import AzureAIEmbeddingsModel
 from langchain_azure_ai.chat_models import AzureAIChatCompletionsModel
 from langchain.schema import SystemMessage, HumanMessage
+# backend/app.py - Add this:
+from flask_cors import CORS
 
+app = Flask(__name__)
+CORS(app, origins=['http://localhost:5173', 'https://maverick7t.github.io'])
 # ─── Logging Setup ───────────────────────────────────────────────────────────
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger("rag_app")
@@ -128,3 +132,4 @@ def index():
 if __name__ == "__main__":
     logger.info("Starting Flask on http://0.0.0.0:8000")
     app.run(host="0.0.0.0", port=8000)
+
