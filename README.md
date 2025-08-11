@@ -1,12 +1,36 @@
-# React + Vite
+# QA Tool - H-DenseUNet Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a React-based frontend for the QA Tool project, deployed on GitHub Pages.  
+The backend, including the Azure-based `app.py` service, is located in the `backend/` folder but is **not deployed live** due to resource constraints.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## Expanding the ESLint configuration
+Access the live frontend here:  
+[https://Maverick7t.github.io/QA_Tool](https://Maverick7t.github.io/QA_Tool)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> **Note:** Backend services are currently offline due to cost limitations.  
+> The frontend demo will display a placeholder message indicating that the service is down.
+
+---
+
+## Project Structure
+
+- `/src` — React frontend source code  
+- `/public` — Static assets for React app  
+- `/backend` — Azure Python backend files (not deployed)  
+
+---
+
+## Setup & Deployment
+
+### Frontend
+
+- Built with React and Vite  
+- Deployed via GitHub Pages (`gh-pages` package)  
+- To build and deploy:  
+  ```bash
+  npm install
+  npm run build
+  npm run deploy
