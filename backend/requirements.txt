@@ -4,4 +4,5 @@ pypdf
 faiss-cpu 
 python-dotenv
 azure-identity
+flask-cors
 flask
