@@ -1,3 +1,4 @@
+# Azure AI-Powered QA Tool 🤖
 ## 🏗️ Azure Architecture
 - **Azure AI Foundry**: DeepSeek-R1/gpt-4o (you can choose any model) for chat completions
 - **Azure OpenAI Service**: text-embedding-3-small for embeddings  
@@ -34,7 +35,7 @@ Access the live frontend here:
 ---
 
 ## Setup & Deployment
-# Azure AI-Powered QA Tool 🤖
+
 
 
 ### Frontend
